@@ -1,27 +1,37 @@
-# CommunicationTrackingUi
+# Email Tracking Service - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
+The frontend interface for the **Email Tracking Service** was developed as part of an internship project. Built with **Angular** and **Angular Material**, it simulates email tracking UI functionality using mock data for testing and demonstration.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Submission Form**: Form-based UI to submit mock email tracking requests with fields for `Batch ID` and `Account ID`.
+- **Request Table**: Displays mock email request statuses with columns such as Batch ID, Scheduled Date, Email Status, and SFMC Status.
+- **Filtering and Sorting**: Allows filtering by Account ID and date for quick access to specific mock data.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Development Server
+
+Run `ng serve` to start the dev server and navigate to `http://localhost:4200/`. The app will reload automatically with any code changes.
+
+---
+
+## Code Scaffolding
+
+Run `ng generate component component-name` to create new components. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+---
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Running Unit Tests
 
-## Running end-to-end tests
+Run `ng test` to execute unit tests via [Karma](https://karma-runner.github.io).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Each README now has the necessary details. You’re all set to copy and paste!
